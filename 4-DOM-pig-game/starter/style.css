@@ -126,6 +126,26 @@ button:focus {
     outline: none;
 }
 
+.final-score {
+        position: absolute;
+        width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #555;
+        background: #fff;
+        border: solid 1px;
+        font-family: Lato;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 300;
+        transition: background-color 0.3s, color 0.3s;
+        top: 520px;
+}
+
+
+
 i {
     color: #EB4D4D;
     display: inline-block;
