@@ -142,3 +142,6 @@ function rollDice() {
     diceDOM.style.display = 'block';
     diceDOM.src = 'dice-' + dice + '.png';
 }
+
+
+document.querySelector('.current-0').remove
